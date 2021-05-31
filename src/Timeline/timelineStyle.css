@@ -1,0 +1,65 @@
+.active{
+    color: rgb(54, 204, 54);
+    margin-left: 8;
+    flex: 0.45;
+    cursor: pointer;
+
+}
+.inactive{
+    color: red;
+    margin-left: 8;
+    flex: 0.45;
+    cursor: pointer;
+}
+.overlayStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    flex: 0.3
+}
+.horizontalLine{
+    color: gray;
+    width: 100%
+}
+.tableStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topicStyle{
+    display:flex;
+     flex:0.4;
+    font-size:14;
+}
+.centerAlignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.timelineBody{
+    background: #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0,0,0,0.2);
+}
+.titleStyle{
+    display: flex;
+    justify-content:center;
+    font-weight: bold;
+    padding-top: 8;
+}
+.horizontalLineSubheadings{
+    color: gray;
+    height:2;
+    width: 96%;
+}
+.spinnerStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.paddingStyle{
+    padding-left: 16;
+}

@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.cards{
+    padding:16;
+    width: 25%;
+}
+.paginationStyle{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16;
+}
